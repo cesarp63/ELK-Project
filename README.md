@@ -30,6 +30,7 @@ The configuration details of each machine may be found below. Note: Use the Mark
 
 
 |     Name        |  Function |  IP Address             | Operating System    
+---------------------------------------------------------------------------
 |    Jump-Box     | Gateway     |13.67.232.43, 10.0.0.4 |  linux
 |     web-1       | Web Server  |10.0.0.5               |  linux 
 |     web-2       | Web Server  | 10.0.0.6              |  linux
@@ -49,6 +50,7 @@ Machines within the network can only be accessed by SSH.
 Which machine did you allow to access your ELK VM? What was its IP address?
 
 |     Name        |  Publicly Accessible |  IP Address             | Operating System    
+---------------------------------------------------------------------------------------
 | Jump-Box        | Gateway               |13.67.232.43, 10.0.0.4 |  linux
 |     web-1       | Web Server            |10.0.0.5               |  linux 
 |     web-2       | Web Server            | 10.0.0.6              |  linux
