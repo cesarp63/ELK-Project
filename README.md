@@ -26,35 +26,16 @@ Filebeat watches for changes in logs and files.
 What does Metricbeat record?
 It records machine metrics and stats. 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
-Name
-Function
-IP Address
-Operating System
-Jump Box
-Gateway
-13.67.232.43
-10.0.0.4
-Linux
-web-1
-Web Server
-10.0.0.5
-Linux
-web-2
-Web Server
-10.0.0.6
-Linux
-Project-VM
 
-Red-Team-LB       
-Kibana 
 
-Load Balancer         
-10.1.0.4
 
-23.99.15.28    
-Linux
+|     Name        |  Function |  IP Address             | Operating System    
+|    Jump-Box     | Gateway     |13.67.232.43, 10.0.0.4 |  linux
+|     web-1       | Web Server  |10.0.0.5               |  linux 
+|     web-2       | Web Server  | 10.0.0.6              |  linux
+|  Load Balancer  | Dvwa        | 23.99.15.28           |  linux
+|    Project VM   | Gateway     | 10.1.0.4              |  linux
 
-DVWA
 
 
 
@@ -66,33 +47,13 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 172.15.78.50, it would be my home network public IP.
 Machines within the network can only be accessed by SSH.
 Which machine did you allow to access your ELK VM? What was its IP address?
-Jump box  13.67.232.43
-A summary of the access policies in place can be found in the table below.
-Name
-Publicly Accessible
-Allowed IP Addresses
-Jump Box
-no
-172.15.78.50, It’s the User Public IP
-Web-1
 
-Web-2
-
-Project-VM
-yes
-
-yes
-
-Yes
-            Any
-
-            Any
- 
-           User Public IP, 10.1.04
-
-
-
-
+|     Name        |  Publicly Accessible |  IP Address             | Operating System    
+| Jump-Box        | Gateway               |13.67.232.43, 10.0.0.4 |  linux
+|     web-1       | Web Server            |10.0.0.5               |  linux 
+|     web-2       | Web Server            | 10.0.0.6              |  linux
+|  Load Balancer  | Dvwa                  | 23.99.15.28           |  linux
+|    Project VM   | Gateway               | 10.1.0.4              |  linux
 
 
 
