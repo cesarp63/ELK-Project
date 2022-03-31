@@ -8,6 +8,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
 CONFIG FOLDER/filebeat-configuration.yml
+CONFIG FOLDER/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
