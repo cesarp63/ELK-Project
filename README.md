@@ -105,6 +105,19 @@ These Beats allow us to collect the following information from each machine:
 - **metricbeat collects metrics and statistic.The data output is collected by the operating system and services running in the server.**
 
 
+![Filebeat-Configuration](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-configuration.yml)
+
+
+![Filebeat-Playbook](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-playbook.yml)
+
+
+![Metricbeat-Configutation](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/metricbeat-configuration.yml)
+
+
+![Metric-Playbook](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/metricbeat-playbook.yml)
+
+
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
