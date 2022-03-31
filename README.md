@@ -7,8 +7,10 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **YAML** file may be used to install only certain pieces of it, such as Filebeat.
 
 
-
-
+![Filebeat-Configuration]()
+![Filebeat-Playbook]()
+![Metricbeat-Configutation]()
+![Metric-Playbook]()
 ![Elk](https://github.com/cesarp63/ELK-Project/blob/679022265d3d93b92c46ed09e9f13a9963280522/CONFIG%20FOLDER/install-elk.yml)
 
 This document contains the following details:
