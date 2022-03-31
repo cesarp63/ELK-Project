@@ -89,7 +89,7 @@ Fifth Step: Now I ssh to my Project-VM to check if the server is running**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![https://github.com/cesarp63/ELK-Project/blob/d7d9198ca959a19bd17ccc7de4b08594e770b2f0/Pictures/dock-ps-elk-output.png]
+![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/d7d9198ca959a19bd17ccc7de4b08594e770b2f0/Pictures/dock-ps-elk-output.png)
 
 
 ### Target Machines & Beats
