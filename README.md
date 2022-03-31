@@ -21,17 +21,18 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly available, in addition to restricting inbound access to the network.
+Load balancing ensures that the application will be highly **available**, in addition to restricting **inbound access** to the network.
  What aspect of security do load balancers protect? 
-A load balancer protects azure resources within our virtual network. They protect the system from DDos attacks. 
+**A load balancer protects azure resources within our virtual network. They protect the system from DDos attacks.** 
+
 What is the advantage of a jump box?
-The advantage of a jump box is that it improves the security aspect. It will protect all virtual machines from being exposed to the public network. 
+**The advantage of a jump box is that it improves the security aspect. It will protect all virtual machines from being exposed to the public network.** 
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **resources / availability**.
-- What does Filebeat watch for? Filebeat watches for changes in logs and files. 
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **metric**.
+- What does Filebeat watch for? **Filebeat watches for changes in logs and files.**
 
-- What does Metricbeat record? It records machine metrics and stats.
+- What does Metricbeat record? **It records machine metrics and stats.**
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -47,11 +48,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
-Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-172.15.78.50, it would be my home network public IP.
-Machines within the network can only be accessed by SSH.
+Only the **Jump Box** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+**172.15.78.50, it would be my home network public IP.**
+Machines within the network can only be accessed by **SSH.**
 Which machine did you allow to access your ELK VM? What was its IP address?
-Jump box  13.67.232.43
+**Jump box  13.67.232.43**
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses   |
@@ -63,14 +64,14 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it would let us access our container faster and help us have a consistent connection. This avoids any human error that can occur by performing the configuration manually. 
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous **because it would let us access our container faster and help us have a consistent connection. This avoids any human error that can occur by performing the configuration manually.** 
 
 The playbook implements the following tasks:
-First Step: ssh to my Jump-box-provisioner (ssh sysadmin@13.67.232.43)
+**First Step: ssh to my Jump-box-provisioner (ssh sysadmin@13.67.232.43)
 Second step: It is to run my ansible container. sudo docker ps, sudo docker start interesting_booth and sudo docker attach interesting_booth
 Third Step: cd to /etc/ansible/roles. I created the Elk playbook (Elk_playbook.yml)
 Fourth Step: I ran the Elk_playbook.yml in the same directory
- Fifth Step: Now I ssh to my Project-VM to check if the server is 
+Fifth Step: Now I ssh to my Project-VM to check if the server is running**
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
