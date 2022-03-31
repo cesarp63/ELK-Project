@@ -8,9 +8,17 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
 ![Filebeat-Configuration](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-configuration.yml)
+
+
 ![Filebeat-Playbook](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-playbook.yml)
+
+
 ![Metricbeat-Configutation](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/metricbeat-configuration.yml)
+
+
 ![Metric-Playbook](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/metricbeat-playbook.yml)
+
+
 ![Elk](https://github.com/cesarp63/ELK-Project/blob/679022265d3d93b92c46ed09e9f13a9963280522/CONFIG%20FOLDER/install-elk.yml)
 
 This document contains the following details:
