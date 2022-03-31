@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
 
-https://github.com/cesarp63/ELK-Project/blob/679022265d3d93b92c46ed09e9f13a9963280522/CONFIG%20FOLDER/install-elk.yml
+![Elk](https://github.com/cesarp63/ELK-Project/blob/679022265d3d93b92c46ed09e9f13a9963280522/CONFIG%20FOLDER/install-elk.yml)
 
 This document contains the following details:
 - Description of the Topology
