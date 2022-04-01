@@ -70,10 +70,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses   |
 |----------|---------------------|------------------------|
-| Jump Box | no                  |172.15.78.50,User Pub IP|
-| Web-1    | Yes                 |any                     |
-| Web-2    | Yes                 |any                     |
-| ELK-VM   | Yes                 |User Pub IP, 10.1.0.4   |
+| Jump Box | yes                 |172.15.78.50,User Pub IP|
+| Web-1    | no                  |any                     |
+| Web-2    | no                  |any                     |
+| ELK-VM   | yes                 |User Pub IP, 10.1.0.4   |
 
 ### Elk Configuration
 
