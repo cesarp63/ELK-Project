@@ -135,6 +135,19 @@ SSH into the control node and follow the steps below:
 - _Which URL do you navigate to in order to check that the ELK server is running? **http://http://20.58.186.206:5601/app/kibana:5601/app/kibana**
 
 
+The commands I used to run the Ansible configuration for the Elk-Server where
+
+- ssh sysadmin(13.67.232.43) It connected me to the Jump-box-provisioner. 
+- sudo docker container list -a (find your ansible container) container name interesting _booth
+- sudo docker start container (interesting_booth)
+- sudo docker attach container (interesting_booth)
+- ssh sysadmin@10.1.0.4 which is my project-vm
+- sudo docker container list -a (find your ansible container) container name elk
+- sudo docker start container (elk)
+- sudo docker attach container (elk)
+- open a new web browser (http://[your.ELK-VM.External.IP]:5601/app/kibana) This will take you to the Kibana Web Portal 
+- once in kabana you can see the status for file beat and metric beat.
+
 ![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/e20a8ac9ac05103bf32ec6a05d817e81c8dd2c90/Pictures/Kibana%20screen%20shot%202.png)
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
