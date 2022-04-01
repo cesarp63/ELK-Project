@@ -132,4 +132,6 @@ SSH into the control node and follow the steps below:
 - _Which URL do you navigate to in order to check that the ELK server is running? **http://http://20.58.186.206:5601/app/kibana:5601/app/kibana**
 ![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/cd940ffbab20a24332ce6dc6dd4d10e1c7c607c9/Pictures/Kibana%20screen%20shot.png)
 
+![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/e20a8ac9ac05103bf32ec6a05d817e81c8dd2c90/Pictures/Kibana%20screen%20shot%202.png)
+
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
