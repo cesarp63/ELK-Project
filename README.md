@@ -101,6 +101,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - **Filebeat**
 - **Metricbeat**
+
 These Beats allow us to collect the following information from each machine:
 - **filebeat will monitor logs and collect data logs. It will display output directly to elasticsearch or logstash.** 
 - **metricbeat collects metrics and statistic.The data output is collected by the operating system and services running in the server.**
