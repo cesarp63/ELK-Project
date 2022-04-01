@@ -150,4 +150,6 @@ The commands I used to run the Ansible configuration for the Elk-Server where
 
 ![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/e20a8ac9ac05103bf32ec6a05d817e81c8dd2c90/Pictures/Kibana%20screen%20shot%202.png)
 
+![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/f280b7c1825892d7c17a4d840c65097e306b1df5/Pictures/Kibana%20screen%20shot%203.png)
+
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
