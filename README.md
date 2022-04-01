@@ -53,9 +53,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 13.67.232.43,10.0.0.4   |Linux|
-| Web-1    | DVWA     | 10.0.0.5                |Linux|
-| Web-2    | DVWA     | 10.0.0.6                |Linux|
-|Project-VM| Kibana   | 10.1.0.4                |Linux|
+| Web-1    | server   | 10.0.0.5                |Linux|
+| Web-2    | server   | 10.0.0.6                |Linux|
+|Project-VM| server   | 10.1.0.4                |Linux|
 |Red-Teamlb| load Ba  | 23.99.15.28             |Linux|
 
 ### Access Policies
