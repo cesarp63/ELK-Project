@@ -118,7 +118,7 @@ These Beats allow us to collect the following information from each machine:
 
 ![Metric-Playbook](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/metricbeat-playbook.yml)
 
-
+![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/c34e5fef5e81033684a849dd5735e2a2e4678357/Pictures/ansible%20folder.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
