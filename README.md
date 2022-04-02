@@ -145,8 +145,8 @@ The commands I used to run the Ansible configuration for the Elk-Server where
 - sudo docker container list -a (find your ansible container) container name elk
 - sudo docker start container (elk)
 - sudo docker attach container (elk)
-- open a new web browser an input (http://[your.ELK-VM.External.IP]:5601/app/kibana) This will take you directly to the Kibana website
-- once in kabana website you can see the status for file beat and metric beat.
+- open a new web browser an input [your.ELK-VM.External.IP]:5601/app/kibana) This will take you directly to the Kibana website
+- now in the kabana website you can see the status for file beat and metric beat.
 
 ![Sudo Docker PS](https://github.com/cesarp63/ELK-Project/blob/e20a8ac9ac05103bf32ec6a05d817e81c8dd2c90/Pictures/Kibana%20screen%20shot%202.png)
 
