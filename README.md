@@ -42,7 +42,7 @@ What is the advantage of a jump box?
 **The advantage of a jump box is that it will improve the security of our network. It will protect all virtual machines from being exposed to the public network.** 
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **metric**.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **file system** and system **metric**.
 - What does Filebeat watch for? **Filebeat scans for any changes in logs and files.**
 
 - What does Metricbeat record? **It records metrics and stats.**
