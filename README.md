@@ -39,11 +39,11 @@ Load balancing ensures that the application will be highly **available**, in add
 **A load balancer protects azure resources within our virtual network. They protect the system from attacks.** 
 
 What is the advantage of a jump box?
-**The advantage of a jump box is that it improves the security aspect. It will protect all virtual machines from being exposed to the public network.** 
+**The advantage of a jump box is that it will improves the security. It will protect all virtual machines from being exposed to the public network.** 
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **metric**.
-- What does Filebeat watch for? **Filebeat scans for changes in logs and files.**
+- What does Filebeat watch for? **Filebeat scans for any changes in logs and files.**
 
 - What does Metricbeat record? **It records metrics and stats.**
 
@@ -81,7 +81,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 **First Step: ssh to my Jump-box-provisioner (ssh sysadmin@13.67.232.43)
-Second step: It is to run my ansible container. sudo docker ps, sudo docker start interesting_booth and sudo docker attach interesting_booth
+Second step: would be to run my ansible container. sudo docker ps, sudo docker start interesting_booth and sudo docker attach interesting_booth
 Third Step: cd to /etc/ansible/roles. I created the Elk playbook (Elk_playbook.yml)
 Fourth Step: I ran the Elk_playbook.yml in the same directory
 Fifth Step: Now I ssh to my Project-VM to check if the server is running**
