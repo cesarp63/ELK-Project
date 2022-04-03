@@ -43,9 +43,9 @@ What is the advantage of a jump box?
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **metric**.
-- What does Filebeat watch for? **Filebeat watches for changes in logs and files.**
+- What does Filebeat watch for? **Filebeat scans for changes in logs and files.**
 
-- What does Metricbeat record? **It records machine metrics and stats.**
+- What does Metricbeat record? **It records metrics and stats.**
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -77,7 +77,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous **because it would let us access our container faster and help us have a consistent connection. This avoids any human error that can occur by performing the configuration manually.** 
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous **because it would let us access our container faster and help us have a consistent connection. This avoids any error that can occur by performing the configuration manually.** 
 
 The playbook implements the following tasks:
 **First Step: ssh to my Jump-box-provisioner (ssh sysadmin@13.67.232.43)
@@ -104,7 +104,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - **filebeat will monitor logs and collect data logs. It will display output directly to elasticsearch or logstash.** 
-- **metricbeat collects metrics and statistic.The data output is collected by the operating system and services running in the server.**
+- **metricbeat collects metrics and stats.The data output is collected by the operating system and services running in the server.**
 
 
 ![Filebeat-Configuration](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-configuration.yml)
