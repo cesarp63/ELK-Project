@@ -36,7 +36,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly **available**, in addition to restricting **inbound access** to the network.
  What aspect of security do load balancers protect? 
-**A load balancer protects azure resources within our virtual network. They protect the system from DDos attacks.** 
+**A load balancer protects azure resources within our virtual network. They protect the system from attacks.** 
 
 What is the advantage of a jump box?
 **The advantage of a jump box is that it improves the security aspect. It will protect all virtual machines from being exposed to the public network.** 
