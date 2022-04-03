@@ -39,7 +39,7 @@ Load balancing ensures that the application will be highly **available**, in add
 **A load balancer protects azure resources within our virtual network. They protect the system from attacks.** 
 
 What is the advantage of a jump box?
-**The advantage of a jump box is that it will improves the security. It will protect all virtual machines from being exposed to the public network.** 
+**The advantage of a jump box is that it will improve the security of our network. It will protect all virtual machines from being exposed to the public network.** 
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filesystem** and system **metric**.
