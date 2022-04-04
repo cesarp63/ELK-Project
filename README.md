@@ -107,7 +107,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - **filebeat will monitor logs and collect data logs. It will display output directly to elasticsearch or logstash.** 
 - **metricbeat collects metrics and stats.The data output is collected by the operating system and services running in the server.**
-- **packetbeat will collect packets that pass through the NIC.
+- **packetbeat will collect packets that pass through the NIC.**
 
 ![Filebeat-Configuration](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-configuration.yml)
 
