@@ -42,7 +42,8 @@ What is the advantage of a jump box?
 **The advantage of a jump box is that it will improve the security of our network. It will protect all virtual machines from being exposed to the public network.** 
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **file system** and system **metric**.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **file system of the vms on the network** and system **metric**.
+
 - What does Filebeat watch for? **Filebeat scans for any changes in logs and files.**
 
 - What does Metricbeat record? **It records metrics and stats.**
@@ -55,7 +56,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 13.67.232.43,10.0.0.4   |Linux|
 | Web-1    | server   | 10.0.0.5                |Linux|
 | Web-2    | server   | 10.0.0.6                |Linux|
-|Project-VM| server   | 10.1.0.4                |Linux|
+|Project-VM| monitor  | 10.1.0.4                |Linux|
 |Red-Teamlb| load Ba  | 23.99.15.28             |Linux|
 
 ### Access Policies
@@ -63,14 +64,14 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the **Jump Box** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 **172.15.78.50, it would be my home network public IP.**
-Machines within the network can only be accessed by **SSH.**
+Machines within the network can only be accessed by **each other.**
 Which machine did you allow to access your ELK VM? What was its IP address?
 **Jump box  13.67.232.43**
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses   |
 |----------|---------------------|------------------------|
-| Jump Box | no                  |172.15.78.50,User Pub IP|
+| Jump Box | yes                 |172.15.78.50,User Pub IP|
 | Web-1    | no                  |any                     |
 | Web-2    | no                  |any                     |
 | ELK-VM   | no                  |User Pub IP, 10.1.0.4   |
@@ -101,11 +102,12 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 - **Filebeat**
 - **Metricbeat**
+- **Packetbeat**
 
 These Beats allow us to collect the following information from each machine:
 - **filebeat will monitor logs and collect data logs. It will display output directly to elasticsearch or logstash.** 
 - **metricbeat collects metrics and stats.The data output is collected by the operating system and services running in the server.**
-
+- **packetbeat will collect packets that pass through the NIC.
 
 ![Filebeat-Configuration](https://github.com/cesarp63/ELK-Project/blob/f4ebe9142a4fbe1ce80e7cec9e26a8f3ea3553eb/CONFIG%20FOLDER/filebeat-configuration.yml)
 
